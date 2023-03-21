@@ -1,3 +1,3 @@
-# rsschool-cv
-[Markdown profile](https://vooodee.github.io/rsschool-cv/cv)
-[HTML profile](https://vooodee.github.io/rsschool-cv/)
+# My personal page
+[Link to a personal page](https://egor-mironov.github.io/git-personal-page/)
+
