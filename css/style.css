@@ -343,3 +343,50 @@ span.empty-space {
 .header__features path {
 	fill: #349dff;
 }
+
+@media screen and (max-width: 1200px) {
+	.main-block {
+		flex-direction: column;
+	}
+	.side-panel {
+		width: 100%;
+	}
+	.main-content {
+		width: 100%;
+	}
+	.my-photo-profile {
+		max-width: -webkit-fill-available;
+		margin-left: 4%;
+	}
+	.aside-section {
+		max-width: 464px;
+	}
+	.sticky-container {
+		display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.aside-section {
+		margin-bottom: auto;
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 885px) {
+	.sticky-container {
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.side-panel {
+		padding-bottom: 35px;
+	}
+	.my-photo-profile {
+		max-width: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+	}
+}
